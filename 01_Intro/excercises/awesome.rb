@@ -18,4 +18,4 @@ def awesome_seeker(top_num)
     end
 end
 
-awesome_seeker(100)                               #calls the method "awesome_seeker"
+awesome_seeker(100)                               #calls the method "awesome_seeker method"
