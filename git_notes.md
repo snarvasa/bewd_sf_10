@@ -1,3 +1,5 @@
+7/27/15 - Test Edit
+
 BACK-END WEB DEVELOPMENT
 ============================
 
@@ -6,16 +8,16 @@ BACK-END WEB DEVELOPMENT
 
 ## Fork Our Repo From Github
 
-- The instructor will demonstrate where the `fork` button is on github 
+- The instructor will demonstrate where the `fork` button is on github
 
 - Our cohort's git repo lives here -> [ga-students/bewd_sf_10](https://github.com/ga-students/bewd_sf_10)
 
 
 - Clone the `forked` version of our repo
 	- `git clone https://github.com/[your_git_name]/bewd_sf_10.git`
-	
 
-- Add the remote parent repo 
+
+- Add the remote parent repo
 	- `git remote add upstream https://github.com/ga-students/bewd_sf_10.git`
 
 - Confirm that your forked remote version & the `upstream` remote version are connected to your local repo
@@ -27,7 +29,7 @@ BACK-END WEB DEVELOPMENT
 
 
 
-##TROUBLE SHOOTING 
+##TROUBLE SHOOTING
 
 
 ###Get out of Git Jail
