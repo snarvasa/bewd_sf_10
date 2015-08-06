@@ -27,5 +27,13 @@ Note: these are optional resources and **not** homework, but are helpful and rel
 | Resource | Class Topic |
 | -------- | ----------- |
 | [Code School Try Git](https://www.codeschool.com/courses/try-git) <br/>[Git Kitchen with Chef Ramsey](http://bloggytoons.com/posts/2013/10/10/git-kitchen-wchef-ramsay) | Git |
+<<<<<<< HEAD
+=======
+| Skip around these 3-5 minute videos on [New Boston](https://www.thenewboston.com/videos.php?cat=50) | Core Ruby language |
 |          | - |
 |          | - |
+|          | - |
+>>>>>>> 6e5fb5e26778d93e3e700f54640d261439981cea
+|          | - |
+|          | - |
+| ...      | - |
