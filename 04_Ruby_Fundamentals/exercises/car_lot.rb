@@ -28,6 +28,7 @@ mini = {brand: "Mini", model: "Cooper", year: 2015, price: 35000, is_electric: f
 toyota = {brand: "Toyota", model: "Prius", year: 2014, price: 3000, is_electric: true}
 chevy = {brand: "Chevy", model: "Volt", year: 2015, price: 26000, is_electric: true}
 ford = {brand: "Ford", model: "Mustange", year: 1967, price: 45000, is_electric: false}
+nissan = {brand: "Nissan", model: "Leaf", year: 2015, price: 35000, is_electric: true}
 
 
 #approach one
@@ -36,5 +37,5 @@ ford = {brand: "Ford", model: "Mustange", year: 1967, price: 45000, is_electric:
 #show_all_cars(cars)
 
 #approach two
-cars = add_cars(tesla, mini, toyota, chevy, ford)
+cars = add_cars(tesla, mini, toyota, chevy, ford, nissan)
 show_all_cars(cars)
