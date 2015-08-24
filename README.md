@@ -33,7 +33,7 @@ Note: these are optional resources and **not** homework, but are helpful and rel
 <<<<<<< HEAD
 =======
 | Skip around these 3-5 minute videos on [New Boston](https://www.thenewboston.com/videos.php?cat=50) | Core Ruby language |
-|          | - |
+| [Interactive visual git workflow](http://onlywei.github.io/explain-git-with-d3/#branch) (advanced) | Git |
 |          | - |
 |          | - |
 >>>>>>> 6e5fb5e26778d93e3e700f54640d261439981cea
