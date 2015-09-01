@@ -20,15 +20,14 @@ BACK-END WEB DEVELOPMENT
 | 7 | Ruby & Rails | Object Oriented Concepts: Part 2 | Wed 2015-08-19 |
 | 8 | Ruby & Rails | Object Oriented Concepts: Part 3 | Mon 2015-08-24|
 | 9 | Project Proposal| Project Proposal Workshop| Wed 2015-08-26 |
-| 10 | Ruby & Rails| MVC - Intro to the Controller | |
-| 11 | Ruby & Rails| MVC - Intro to the Model ||
-| 12 | Ruby & Rails| MVC - Intro to the View with Bootstrap| |
-| 13 | Ruby & Rails| MVC -  Model Associations & Validations ||
-| 14 | Ruby & Rails| MVC - Model Methods & Active Record Queries ||
-| 15 | Ruby & Rails| Authentication - Devise  & OmniAuth||
-| 16 | Ruby & Rails| Api Integration | Subject to Change|
+| 10 | Ruby & Rails| MVC - Intro to the Rails MVC Framework |Mon 2015-08-31 |
+| 11 | Ruby & Rails| MVC - Controller 101 |Wed 2015-09-02|
+| 12 | Ruby & Rails| MVC - View 101 with Bootstrap 3 | |
+| 13 | Ruby & Rails| MVC - Model 101 - Intro to Associations & Validations ||
+| 14 | Ruby & Rails| MVC - Model 102 - Intro to Active Record Queries ||
+| 15 | Ruby & Rails| Api Integration - Authentication, Authorization & Email  ||
+| 16 | Ruby & Rails| Api Integration - 3rd Party API ||
 | ** | Special Sunday Session| Intro to JavaScript ||
 | 17 | Rails & React| React on Rails with Coffeescript  | ||
-| 18 | Ruby & Rails| API Integration - Email & SMS Messaging with Twilio||
+| 18 | Ruby & Rails| Project Lab Intensive ||
 | 19 | Project Lab | Final Project Presentations !!!!||
-
