@@ -1,0 +1,21 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+.header {
+  background-image: url('https://images.unsplash.com/photo-1423592707957-3b212afa6733?q=80&fm=jpg&s=105adf8aa478ffdd67a7deaa052834f6');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:350px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}

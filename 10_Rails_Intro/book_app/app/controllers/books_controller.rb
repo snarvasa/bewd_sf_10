@@ -1,11 +1,19 @@
 class BooksController < ApplicationController
+<<<<<<< HEAD
   before_action :set_book, only: [:show, :edit, :update, :destroy] #before you call this action, call set_book
 
+=======
+  before_action :set_book, only: [:show, :edit, :update, :destroy]
+>>>>>>> e79a01cdc7abe9dc890e4f3a29c983909175c85e
 
   # GET /books
   # GET /books.json
   def index
+<<<<<<< HEAD
     @books = Book.all #this is the method that will fetch all books
+=======
+    @books = Book.all
+>>>>>>> e79a01cdc7abe9dc890e4f3a29c983909175c85e
   end
 
   # GET /books/1
@@ -14,9 +22,14 @@ class BooksController < ApplicationController
   end
 
   # GET /books/new
+<<<<<<< HEAD
   def new #this corresponds with the books#new in the routes
     @book = Book.new  #this creates a new book class instance
     #blank instance of book is being prepared, here
+=======
+  def new
+    @book = Book.new
+>>>>>>> e79a01cdc7abe9dc890e4f3a29c983909175c85e
   end
 
   # GET /books/1/edit
@@ -26,11 +39,19 @@ class BooksController < ApplicationController
   # POST /books
   # POST /books.json
   def create
+<<<<<<< HEAD
     @book = Book.new(book_params)#instance of book is being created with these parameters
     #binding.pry
     respond_to do |format|
       if @book.save #once you've saved the instance then
         format.html { redirect_to @book, notice: 'Book was successfully created.' } #redirect the user to a path called book
+=======
+    @book = Book.new(book_params)
+
+    respond_to do |format|
+      if @book.save
+        format.html { redirect_to @book, notice: 'Book was successfully created.' }
+>>>>>>> e79a01cdc7abe9dc890e4f3a29c983909175c85e
         format.json { render :show, status: :created, location: @book }
       else
         format.html { render :new }
@@ -66,9 +87,13 @@ class BooksController < ApplicationController
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_book
+<<<<<<< HEAD
       @book = Book.find(params[:id])    #find the ID of the book, associate it with an instance variable called book
       #make this instance available to every action that uses set_book
       #params: parameters that are being provided to some view
+=======
+      @book = Book.find(params[:id])
+>>>>>>> e79a01cdc7abe9dc890e4f3a29c983909175c85e
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.

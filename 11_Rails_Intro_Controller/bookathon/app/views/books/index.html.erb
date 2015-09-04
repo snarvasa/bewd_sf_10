@@ -1,0 +1,13 @@
+<div class = "col-12">
+
+  <h1>Welcome to the Book Index, yo.</h1>
+  <p>Find me in app/views/books/index.html.erb</p>
+
+  <div class ="well">
+    <% @books.each do |book| %>
+    <ul> <li> <%= book.title %></li> </ul>
+    <% end %>
+
+  </div>
+
+</div>
