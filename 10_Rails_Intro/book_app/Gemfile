@@ -1,6 +1,9 @@
 source 'https://rubygems.org'
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 8f75727f1fdef019b63a2f1f32c2eb04c0a2bdc9
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.3'
 # Use sqlite3 as the database for Active Record
@@ -24,11 +27,18 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 group :development, :test do
+<<<<<<< HEAD
   #All of this is required for debugging
   gem 'byebug'
   gem 'pry-rails'
   gem 'pry-byebug'
   gem 'pry'
+=======
+  gem 'byebug'
+  gem 'pry'
+  gem 'pry-rails'
+  gem 'pry-byebug'
+>>>>>>> 8f75727f1fdef019b63a2f1f32c2eb04c0a2bdc9
   gem 'binding_of_caller'
   gem 'better_errors'
   gem 'annotate'

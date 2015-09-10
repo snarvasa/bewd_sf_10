@@ -3,7 +3,6 @@ BACK-END WEB DEVELOPMENT
 
 ![GeneralAssemb.ly](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/raw/master/images/ga.png "GeneralAssemb.ly")
 
-
 ##Syllabus
 
 	##Lesson Topics WILL change as the course progresses.
@@ -21,13 +20,17 @@ BACK-END WEB DEVELOPMENT
 | 8 | Ruby & Rails | Object Oriented Concepts: Part 3 | Mon 2015-08-24|
 | 9 | Project Proposal| Project Proposal Workshop| Wed 2015-08-26 |
 | 10 | Ruby & Rails| MVC - Intro to the Rails MVC Framework |Mon 2015-08-31 |
-| 11 | Ruby & Rails| MVC - Controller 101 |Wed 2015-09-02|
-| 12 | Ruby & Rails| MVC - View 101 with Bootstrap 3 | |
-| 13 | Ruby & Rails| MVC - Model 101 - Intro to Associations & Validations ||
-| 14 | Ruby & Rails| MVC - Model 102 - Intro to Active Record Queries ||
-| 15 | Ruby & Rails| Api Integration - Authentication, Authorization & Email  ||
-| 16 | Ruby & Rails| Api Integration - 3rd Party API ||
-| ** | Special Sunday Session| Intro to JavaScript ||
-| 17 | Rails & React| React on Rails with Coffeescript  | ||
-| 18 | Ruby & Rails| Project Lab Intensive ||
-| 19 | Project Lab | Final Project Presentations !!!!||
+| 11 | Ruby & Rails| MVC - Controller 101 - CRUD |Wed 2015-09-02|
+| -  | Labor Day | No Class | Mon 2015-09-07 |
+| 12 | Ruby & Rails| Music App: MVC - Controller 101 - CRUD Continued. View 101 with Bootstrap 3 | Wed 2015-09-09|
+| ** | Special Sunday Session | TBD |Sun 2015-09-15|
+| 13 | Ruby & Rails| Music App: MVC - Model 101 - Intro to Associations & Validations | Mon 2015-09-14|
+| 14 | Ruby & Rails| Music App: MVC - Model 102 - Intro to Active Record Queries | Wed 2015-09-16 |
+| ** | Special Sunday Session| Music App: MVC - Api Integration 101 with GoodReads &  |Sun 2015-09-20|
+| 15 | Ruby & Rails| Music App: MVC - Api Integration 101 with Spotify  |Mon 2015-09-21|
+| 16 | Ruby & Rails| Music App: MVC Api Integration 102- Authentication with Google & Twitter APIs  |Wed 2015-09-23|
+| ** | Special Sunday Session| Intro to React & Final Project Hack Day |Sun 2015-09-27|
+| 17 | Ruby & React| Api Integration - 3rd Party Api's| Mon 2015-09-28|
+| 18 | Ruby & Rails| Project Lab Intensive |Wed 2015-09-30|
+| ** | Special Sunday Session | Project Hack Day & Final Project Hack Day | Sun 2015-10-4 |
+| 19 | Project Lab | Final Project Presentations| Sun 2015-10-5|
