@@ -1,13 +1,19 @@
 <div class = "col-12">
-
   <h1>Welcome to the Book Index, yo.</h1>
-  <p>Find me in app/views/books/index.html.erb</p>
+</div>
 
-  <div class ="well">
-    <% @books.each do |book| %>
-    <ul> <li> <%= book.title %></li> </ul>
-    <% end %>
+<div class="books">
+  <% @books.each do |book| %>
+    <div class="box panel panel-default">
+      <%= image_tag(book.image_url, class: 'img-thumbnail', width: '200px') %>
 
-  </div>
-
+      <div class="panel-body">
+        <strong><%= book.title %></strong><BR>
+        <%= link_to "Edit", edit_book_path(book) %>
+        <%= link_to book, method: :delete, data: { confirm: 'Are you sure?' } do %>
+          <span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
+        <% end %>
+      </div>
+    </div>
+  <% end %>
 </div>

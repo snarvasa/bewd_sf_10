@@ -19,3 +19,43 @@ h3 {
 p {
   text-align: center;
 }
+
+.book_container {
+  min-height:310px;
+}
+
+.book_img {
+  text-align:left;
+  max-width:350px;
+  position:relative;
+}
+
+.book_info {
+  margin-left:300px;
+  margin-top:-250px;
+  text-align:left;
+  position:relative;
+}
+
+.center {
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+  text-align:center;
+}
+
+.branding {
+  padding-top:5px;
+  margin-bottom:-25px;
+}
+
+.books {
+  margin: 0 auto;
+  width:300px;
+  position:relative;
+  text-align:center;
+}
+
+.add-book-btn {
+  text-align:right;
+  float:right;
+}

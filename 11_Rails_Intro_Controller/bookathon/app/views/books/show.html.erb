@@ -1,2 +1,31 @@
-<h1>Books#show</h1>
-<p>Find me in app/views/books/show.html.erb</p>
+<h1>Show me my book</h1>
+<div class="col-md-2"></div>
+<div class="col-md-8">
+  <div class="well">
+    <div class="book_container">
+      <div class="book_img">
+        <%= image_tag(@book.image_url, class: 'img-thumbnail', width: '300px') %>
+      </div>
+
+      <div class="book_info">
+        <ul><h2><%= @book.title %></h2></ul>
+        <ul>by <%= @book.author %> | <%= @book.genre %></ul>
+        <ul><%= @book.available %></ul>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+<div class="col-md-2"></div>
+
+<div class="row col-xs-12">
+
+<div class="center">
+
+  <%= link_to "All books", books_path, class: 'btn btn-primary' %>
+  <%= link_to "Edit this book", edit_book_path, class: 'btn btn-success' %>
+
+</div>
+</div>

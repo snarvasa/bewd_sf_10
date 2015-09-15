@@ -7,6 +7,24 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+  <div class="branding">
+    <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="add-book-btn">
+        <%= link_to new_book_path do %>
+            <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+              <div class="add-book-btn">&nbsp; Add a new book</div>
+            <% end %>
+      </div>
+      <div class="navbar-header">
+        <div class="branding">
+          <%= link_to "Bookathon", books_path, class: 'h3'%>
+        </div>
+      </div>
+    </div>
+  </nav>
+</div>
+
   <div class="header"></div>
   <div class="container-fluid">
     <%= yield %>
