@@ -11,7 +11,6 @@ The remotes  (`git remote -v` to check) to this repository should look like this
 
 The origin and upstream remote names are nicknames for your Github repository urls so you can easily push and pull.    **Note:** see a TA if your remotes end with .git and you're having trouble pulling lessons.
 
-
 From your master branch (`git branch`) in `bewd_sf_10` directory, pull from upstream with `git pull upstream master`. You can `ls` to list the new files you've pulled in.
 
 ####Office Hours
@@ -30,13 +29,7 @@ Note: these are optional resources and **not** homework, but are helpful and rel
 | Resource | Class Topic |
 | -------- | ----------- |
 | [Code School Try Git](https://www.codeschool.com/courses/try-git) <br/>[Git Kitchen with Chef Ramsey](http://bloggytoons.com/posts/2013/10/10/git-kitchen-wchef-ramsay) | Git |
-<<<<<<< HEAD
-=======
 | Skip around these 3-5 minute videos on [New Boston](https://www.thenewboston.com/videos.php?cat=50) | Core Ruby language |
 | [Interactive visual git workflow](http://onlywei.github.io/explain-git-with-d3/#branch) (advanced) | Git |
+| Coding game challenge: [Ruby Warrior](https://github.com/ryanb/ruby-warrior) | Core Ruby |
 |          | - |
-|          | - |
->>>>>>> 6e5fb5e26778d93e3e700f54640d261439981cea
-|          | - |
-|          | - |
-| ...      | - |
