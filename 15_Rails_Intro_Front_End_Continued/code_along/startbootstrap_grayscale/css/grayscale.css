@@ -147,9 +147,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url("http://www.billboard.com/files/styles/promo_650/public/media/drake_press-2013-650a.jpg")no-repeat bottom center scroll;
-    /*background: url("http://www.trackur.com/wp-content/uploads/2013/02/beyoncesuperbowl.jpg")no-repeat bottom center scroll;*/
-    /*background: url("intro-bg.jpg") no-repeat bottom center scroll;*/
+    background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -225,7 +223,7 @@ a:focus {
     -moz-animation-timing-function: linear;
 }
 
-@-webkit-keyframes pulse {
+@-webkit-keyframes pulse {    
     0% {
         -webkit-transform: scale(1);
         transform: scale(1);
@@ -242,7 +240,7 @@ a:focus {
     }
 }
 
-@-moz-keyframes pulse {
+@-moz-keyframes pulse {    
     0% {
         -moz-transform: scale(1);
         transform: scale(1);
@@ -263,6 +261,17 @@ a:focus {
     padding-top: 100px;
 }
 
+.download-section {
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
 
 #map {
     width: 100%;
@@ -275,6 +284,14 @@ a:focus {
         padding-top: 250px;
     }
 
+    .download-section {
+        padding: 100px 0;
+    }
+
+    #map {
+        height: 400px;
+        margin-top: 250px;
+    }
 }
 
 .btn {
